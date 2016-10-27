@@ -44,8 +44,8 @@ $pf-gradient-percent-end: 100%;
 $fa-font-path: "../node_modules/font-awesome/fonts";
 $pf-font-path: "../fonts";
 // $pf-icon-font-name-fa:  "FontAwesome" !default;
-$pf-icon-font-name:  "PatternFlyIcons-webfont" !default;
-$pf-icon-prefix:  pficon !default;
+$pf-icon-font-name:  "PatternFlyIcons-webfont";
+$pf-icon-prefix:  pficon;
 
 $pficon-var-add-circle-o:                                           "\e61b";
 $pficon-var-middleware:                                             "\e917";
@@ -235,7 +235,7 @@ $border-width: 1px;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-$font-family-sans-serif: “Overpass”, “Open Sans”, Helvetica, sans-serif;
+$font-family-sans-serif: “Overpass”, Overpass, “Open Sans”, Helvetica, sans-serif;
 
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
